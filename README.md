@@ -2,11 +2,11 @@
 ## PAgoPro: a tool for Picking Ago from Prokaryotes and detecting its family
 
 ## Installation
-1. Install deltablast. Please download the blast toolkit and add the path to PATH.
+- Install deltablast. Please download the blast toolkit and add the path to PATH.
 The BLAST toolkit can be avaiable at https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html, and download the cdd_delta database at https://ftp.ncbi.nlm.nih.gov/blast/db/cdd_delta.tar.gz. Unzip the cdd_delta into db file of PagoPro.
-2. download and install InterProScan, and put them into bin folder of PagoPro.
+- download and install InterProScan, and put them into bin folder of PagoPro.
 The folder architecture looks like this after property configuration. Among them GCF_000203835.1.faa is our test data
-'''
+```
 PagoPro
 ├── bin
 │   ├── interproscan-5.60-92.0
@@ -30,4 +30,4 @@ PagoPro
 │   └── piwi.fa
 ├── GCF_000203835.1.faa
 ├── PagaPro.py
-'''
+``

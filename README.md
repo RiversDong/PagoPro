@@ -1,6 +1,6 @@
 # PagoPro
-PAgoPro: a tool for Picking Ago from Prokaryotes and detecting its family
+# PAgoPro: a tool for Picking Ago from Prokaryotes and detecting its family
 
-# Installation
+## Installation
 1. Install deltablast
 

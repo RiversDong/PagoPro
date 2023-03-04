@@ -31,3 +31,32 @@ PagoPro
 ├── GCF_000203835.1.faa
 ├── PagaPro.py
 ``
+
+## Usage 
+Bellowing is the basic usage command line in Linux terminal.
+```
+python PagaPro.py -i <input proteins in fatsa format> -o <the out path of results>
+    -i: used to set the input protein sequence path
+    -o: the output of result folder
+For example:
+    python PagaPro.py -i GCF_000203835.1.faa -o ./test
+```
+## Output
+After running the above command line, results will be stored in test folder
+```
+./test/
+├── db
+│   ├── GCF_000203835.1.faa.pdb
+│   ├── GCF_000203835.1.faa.phr
+│   ├── GCF_000203835.1.faa.pin
+│   ├── GCF_000203835.1.faa.pjs
+│   ├── GCF_000203835.1.faa.pot
+│   ├── GCF_000203835.1.faa.psq
+│   ├── GCF_000203835.1.faa.ptf
+│   └── GCF_000203835.1.faa.pto
+├── domain.pdf # a figure to illustarte the domain architecture.
+├── GCF_000203835.1.faa.prefilter
+├── GCF_000203835.1.faa.tsv # the domain summary in tab-splited format
+└── piwi.faa
+
+``` 

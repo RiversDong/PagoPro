@@ -30,7 +30,7 @@ PagoPro
 │   └── piwi.fa
 ├── GCF_000203835.1.faa
 ├── PagaPro.py
-``
+```
 
 ## Usage 
 Bellowing is the basic usage command line in Linux terminal.
@@ -58,5 +58,4 @@ After running the above command line, results will be stored in test folder
 ├── GCF_000203835.1.faa.prefilter
 ├── GCF_000203835.1.faa.tsv # the domain summary in tab-splited format
 └── piwi.faa
-
-``` 
+```
